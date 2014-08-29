@@ -1,5 +1,5 @@
-# sudo docker build -t="sitano/memcached:1.4.20" .
-# sudo docker tag <image> sitano/memcached:latest
+# sudo docker build -t="sitano/memcached:latest" .
+# sudo docker tag <image> sitano/memcached:1.4.20
 
 FROM ubuntu:trusty
 MAINTAINER Ivan Prisyazhniy <john.koepi@gmail.com>
